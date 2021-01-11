@@ -1,0 +1,18 @@
+Hi Akashraj,
+A comment was posted/updated by evaluator for your submission on Apply Naive Bayes on Donors Choose dataset
+
+Comment:
+
+Your submission has been evaluated, Akashraj. We have a few suggestions for you.
+
+1) Whenever the training dataset is highly imbalanced, you can balance it either using any one of the techniques(like oversampling or undersampling) discussed in the course (or) you can use fit_prior = False, class_prior = [0.5, 0.5] parameters in MultinomialNB().
+
+You can try using these parameters in both the cross-validation and the final model training phases and check if the model performance at prediction on the test data is improved.
+
+2) In the ROC-AUC plot, the 'X' axis label should be 'False Positive Rate' and the 'Y' axis label should be 'True Positive Rate'.
+
+3) In the 'Hyperparameter vs AUC' plot, as you are using log(alpha) values as the 'X' coordinates while plotting, the 'X' axis label should be 'log(alpha)'.
+
+Follow the above suggestions for all your future assignments. Rest everything looks good with your work. This submission is accepted for now. You can go to the next assignment.
+
+We request you NOT to post or publish your assignment code on public forums(like GitHub/Medium etc)  as it can lead to plagiarism by others.
