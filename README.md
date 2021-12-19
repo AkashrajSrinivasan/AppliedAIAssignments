@@ -1,2 +1,1 @@
-# AppliedAIAssignments
-This repository contains the solution of Assignments from AppliedAI Course (www.appliedaicourse.com)
+This repository includes implementations of ML models on real world data
