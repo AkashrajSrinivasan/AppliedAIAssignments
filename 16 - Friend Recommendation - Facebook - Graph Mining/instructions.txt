@@ -1,0 +1,1 @@
+For h5 files and csv files, refer gdrive, eda - featurization - model
